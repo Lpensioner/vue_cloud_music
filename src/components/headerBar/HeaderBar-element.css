@@ -1,0 +1,38 @@
+/* .el-input {
+  width: 80%;
+  margin-left: 20px;
+  border-radius: 15px;
+  border: none;
+  color:white
+} */
+.el-input--mini .el-input__inner {
+  height: 40px !important; 
+  transform: scale(0.9);
+  font-size: 14px;
+}
+
+.el-input {
+  width: 80%;
+}
+/* 搜索图标属性设置 */
+.el-input--mini .el-input__icon {
+  line-height: 40px !important;
+  color: rgb(235, 235, 235);
+  transform: scale(0.9);
+}
+
+/* 搜索图标右移 */
+.el-input__prefix {
+  left: 12px;
+}
+
+.el-input__inner {
+  background-color: #e13e3e !important;
+  border: none;
+  color: white !important;
+  border-radius: 15px;
+}
+/* 修改input的placeholder颜色 */
+.el-input__inner::-webkit-input-placeholder { 
+  color: white!important;
+}
